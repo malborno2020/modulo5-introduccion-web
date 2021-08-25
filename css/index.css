@@ -1,32 +1,59 @@
 #contenedor{
     background-color: black;
-    height: 900px;
-    width: 850;
+    height: 925px;
+    width: 1200px;
+    padding: 30px;
 }
 #menu{
     background-color: lightgreen;
-    height: 750px;
-    width: 295px;
+    height: 900px;
+    width: 350px;
     display: inline-block;
+    padding: 5px;
 }
 #contenido{
     background-color: yellow;
-    height: 750px;
-    width: 550px;
+    height: 900px;
+    width: 825px;
+    padding: 5px;
     display: inline-block;
 }
 #foto{
     background-color: pink;
-    height: 295px;
-    width: 200px;
+    height: 280px;
+    width: 310px;
+    margin: 10px;
+    padding: 5px;
 }
 #caract{
     background-color: royalblue;
-    height: 350px;
-    width: 200px;
+    height: 280px;
+    width: 310px;
+    margin: 10px;
+    padding: 5px;
 }
 #settings{
     background-color: violet;
+    height: 280px;
+    width: 310px;
+    margin: 10px;
+    padding: 5px;
+}
+.items{
+    background-color: brown;
+    height: 60px;
+    width: 300px;
+    margin: 5px;
+}
+#fotito{
+    background-color: rgb(153, 165, 42);
     height: 80px;
-    width: 200px;
+    width: 300px;
+    margin: 0px;
+}
+#insetting{
+    background-color: coral;
+    height: 70px;
+    width: 300px;
+    margin-top: 200px;
 }
