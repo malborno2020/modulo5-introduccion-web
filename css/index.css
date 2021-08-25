@@ -1,0 +1,32 @@
+#contenedor{
+    background-color: black;
+    height: 900px;
+    width: 850;
+}
+#menu{
+    background-color: lightgreen;
+    height: 750px;
+    width: 295px;
+    display: inline-block;
+}
+#contenido{
+    background-color: yellow;
+    height: 750px;
+    width: 550px;
+    display: inline-block;
+}
+#foto{
+    background-color: pink;
+    height: 295px;
+    width: 200px;
+}
+#caract{
+    background-color: royalblue;
+    height: 350px;
+    width: 200px;
+}
+#settings{
+    background-color: violet;
+    height: 80px;
+    width: 200px;
+}
