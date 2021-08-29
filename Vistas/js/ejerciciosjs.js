@@ -107,7 +107,7 @@ else if(a>b) {
     console.log("a es el mayor y b es el menor")
 }
 else {
-    console.log("son el mismo número")
+    console.log("a y b son el mismo número")
 }
 
 
