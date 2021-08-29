@@ -85,7 +85,7 @@ console.log("Usuario con array no registrado")
 //Estructura IF
 //Ejercicio 2
 
-a=100
+a=15
 b=100
 
 if(a<b){
@@ -94,18 +94,29 @@ if(a<b){
 else if(a>b) {
     console.log("a es el mayor")
 }
+
+
+//Ejercicio 3
+a=1000
+b=1000
+
+if(a<b){
+    console.log("b es el mayor y a es el menor")
+}
+else if(a>b) {
+    console.log("a es el mayor y b es el menor")
+}
 else {
     console.log("son el mismo número")
 }
 
-//Ejercicio 3
 
 
 //Ejercicio 4
 
-n=546
+n=57
 
-if((n%2)==0) {
+if(n%2==0) {
     console.log("n es par")
 }else {
     console.log("n es impar")
@@ -113,7 +124,7 @@ if((n%2)==0) {
 
 //Ejercicio 5
 
-if(n%2!0) {
+if(n%2!=0) {
     console.log("n es impar")
 }else {
     console.log("n es par")
@@ -121,29 +132,25 @@ if(n%2!0) {
 
 //Ejercicio 6
 
-let edad=prompt("Ingrese la edad")
-let categoria=prompt("Ingrese la categoría A B C o D")
+let edad=8
+let categoria="D"
 
-if(categoria="A") {
+//let edad=prompt("Ingrese la edad")
+//let categoria=prompt("Ingrese la categoría A B C o D")
+
+
+if(categoria=="A") {
     console.log("puede ver la pelicula")    
 }else{
-    if(categoria="B") {
-        if(edad>9){
-            console.log("Puede ver la película")
-        }else{
-            console.log("No puede ver la pelicula")
-        }
-    if(categoria="C"){
-        if(edad>18) {
-            console.log("Puede ver la película")
-        }else{
-            console.log("No puede ver la pelicula")
-        }
-    if(categoria="D"){
-        if(edad>25) {
-            console.log("Puede ver la película")
-        }else{
-            console.log("No puede ver la pelicula")
-        }
+    if(categoria=="B" && edad>9) {
+        console.log("Puede ver la película")
     }
+    if(categoria=="C" && edad>18) {
+        console.log("Puede ver la película")
+    }
+    if(categoria=="D" && edad>25) {
+        console.log("Puede ver la película")   
+    }else{
+        console.log("No puede ver la pelicula")
+    }  
 }
